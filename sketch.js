@@ -20,7 +20,7 @@ function setup(){
   boy.scale = 0.08;
   boy.addAnimation("Jackrunning", boyImg);
 
-  leftboundary = createSprite(0,0,100,100);
+  leftboundary = createSprite(0,0,100,800);
   leftboundary.visible = false;
 
   rightboundary = createSprite(410,0,100,800);
